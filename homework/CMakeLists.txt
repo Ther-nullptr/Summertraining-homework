@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(protobuf_homework)
 
-find_package(Protobuf CONFIG REQUIRED)
+find_package(Protobuf)
 
 message("${PROJECT_SOURCE_DIR}")
 
