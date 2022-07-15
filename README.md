@@ -1,3 +1,5 @@
+**important!! 有同学反映在特定平台和版本上使用`find_package(Protobuf CONFIG REQUIRED)`语句无法正常查找到protobuf，可以尝试将其改为`find_package(Protobuf REQUIRED)`!!**
+
 # 第六讲作业
 
 本讲作业中，我们除了会对之前两讲中的知识点进行复习，还会带领大家接触如何在Linux上搭建开发环境。
