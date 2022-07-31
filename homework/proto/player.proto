@@ -17,5 +17,8 @@ message Prop
 message Player
 {
     // TODO 1: add fields of player 
-    
+    int32 life = 1;
+    string nickname = 2;
+    Job job = 3;
+    repeated Prop props = 4; 
 }
